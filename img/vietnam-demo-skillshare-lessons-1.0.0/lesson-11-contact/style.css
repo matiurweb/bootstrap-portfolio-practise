@@ -1,0 +1,99 @@
+/*************************************************************************
+ * Nav
+ *************************************************************************/
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(247, 247, 247, .8);
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(247, 247, 247, 1);
+  border-bottom: 2px solid #f7f7f7;
+}
+
+/**
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 1rem;
+  }
+}
+
+/*************************************************************************
+ * Header
+ *************************************************************************/
+header {
+  background-image: url('img/lake-3018125_1920.jpg');
+  width: 100%;
+  min-height: 30rem;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info {
+  padding-top: 8rem;
+}
+
+header h1 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
+}
+
+header h3 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
+}
+
+/**
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+  header {
+    min-height: 100vh;
+  }
+
+  #info {
+    padding-top: 22rem;
+  }
+}
+
+/*************************************************************************
+ * Footer
+ *************************************************************************/
+footer {
+  background-color: #1d2124;
+  min-height: 16rem;
+}
+
+footer a.social-link {
+  display: block;
+  height: 5rem;
+  width: 5rem;
+  font-size: 2.8rem;
+  background-color: #0f1012;
+}
+
+footer .icon-social-override {
+  line-height: 5rem;
+}
+
+footer a.social-link:hover {
+  text-decoration: none;
+  text-shadow: 0px 0px 8px #f7f7f7;
+}
+
+footer #copyright {
+  color: rgba(247, 247, 247, .5);
+}
+
+/**
+ * Custom Extra small devices
+ */
+ @media (max-width: 390px) {
+   footer {
+     min-height: 22rem;
+   }
+ }

@@ -1,0 +1,61 @@
+/*************************************************************************
+ * Nav
+ *************************************************************************/
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(247, 247, 247, .8);
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(247, 247, 247, 1);
+  border-bottom: 2px solid #f7f7f7;
+}
+
+/**
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+  .navbar-dark .navbar-nav .nav-link {
+    padding: 1rem;
+  }
+}
+
+/*************************************************************************
+ * Header
+ *************************************************************************/
+header {
+  background-image: url('img/lake-3018125_1920.jpg');
+  width: 100%;
+  min-height: 30rem;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#info {
+  padding-top: 8rem;
+}
+
+header h1 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
+}
+
+header h3 {
+  color: #f7f7f7;
+  text-shadow: 2px 2px 8px #050505;
+}
+
+/**
+ * Large devices (desktops, 992px and up)
+ */
+@media (min-width: 992px) {
+  header {
+    min-height: 100vh;
+  }
+
+  #info {
+    padding-top: 22rem;
+  }
+}
